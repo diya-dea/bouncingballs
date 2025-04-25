@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+canvas {
+  display: block;
+  margin: 20px auto;
+  background: #000;
+  border: 2px solid white;
+}
+
+#hud {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+body, canvas {
+  cursor: pointer; /* Set cursor to pointer by default */
+}
